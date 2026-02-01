@@ -1,17 +1,14 @@
 <!-- ===================== HERO HEADER ===================== -->
 
 <h1 align="center">
-  ☕ JAVA
+  🔰JAVA
 </h1>
 
 <h3 align="center">
   Core • OOP • Logic • Problem Solving
 </h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=700&color=F89820&center=true&vCenter=true&width=850&lines=Learning+Java+in+Public;From+Basics+to+Strong+OOP;Code.+Practice.+Improve.;Perfect+for+Students+%26+Recruiters+🚀" />
-</p>
-
+ 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Java-F89820?style=for-the-badge&logo=java&logoColor=white">
   <img src="https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-blue?style=for-the-badge">
