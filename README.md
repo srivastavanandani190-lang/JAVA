@@ -31,32 +31,7 @@ This repo contains **Java programs**, **concept-based examples**, and **practice
 
 ---
 
-## 🎯 Perfect for Students & Recruiters
-
-<table>
-<tr>
-<td width="50%">
-
-### 👩‍🎓 Students Will Love This
-✨ Beginner-friendly structure  
-🧩 Concept → Example → Practice  
-📘 Clear logic, no shortcuts  
-🚀 Confidence-building code  
-
-</td>
-<td width="50%">
-
-### 🧑‍💼 Recruiters Will Notice This
-🔍 Clean, readable Java  
-📌 Strong OOP fundamentals  
-📈 Consistent learning habit  
-🧠 Problem-solving mindset  
-
-</td>
-</tr>
-</table>
-
----
+ 
 
 ## 🗂️ Inside the Java Universe
 
