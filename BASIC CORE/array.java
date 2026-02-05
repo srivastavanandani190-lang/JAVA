@@ -19,8 +19,6 @@ public class array {
         int arr[]= new int[5]; //declaration and instantiation
         arr[0]=5; //initialization
         System.out.println("element of dynamic array without initialisation: " + arr[1]);
-
-
         
     } 
 }
