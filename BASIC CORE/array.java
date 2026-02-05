@@ -1,6 +1,6 @@
 public class array {
     public static void main(String[] args) {
-        int[] numbers = {10, 20, 30, 40, 50};
+        int numbers[]= {10, 20, 30, 40, 50};
 
         // Print the elements of the array
         System.out.println("Array elements:");
@@ -14,5 +14,13 @@ public class array {
             sum += num;
         }
         System.out.println("Sum of array elements: " + sum);
-    }
+
+        //dynamic array
+        int arr[]= new int[5]; //declaration and instantiation
+        arr[0]=5; //initialization
+        System.out.println("element of dynamic array without initialisation: " + arr[1]);
+
+
+        
+    } 
 }
