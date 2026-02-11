@@ -2,7 +2,7 @@ public class stringbuffer {
     public static void main(String[] args) {
         // Creating a StringBuffer object
         StringBuffer sb = new StringBuffer("honey");
-
+       //string buffer is mutable and string is immutable because string buffer can be changed but string cannot be changed.
         // Appending text to the StringBuffer
         sb.append(", World!");
         System.out.println("After append: " + sb.toString());
@@ -29,6 +29,7 @@ public class stringbuffer {
         int length = sb.length();
         System.out.println("Length of StringBuffer: " + length);
 
-        //string buffer is safe for multithreading but string builder is not safe for multithreading because string buffer methods are synchronized.
+        //string buffer is safe for multithreading but string builder is not safe for 
+        // multithreading because string buffer methods are synchronized.
     }
 }
