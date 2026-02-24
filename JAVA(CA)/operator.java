@@ -59,6 +59,14 @@ class operator{
         System.out.println("Left Shift: " + (p << 1)); // 10
         System.out.println("Right Shift: " + (p >> 1)); // 2
         System.out.println("Unsigned Right Shift: " + (p >>> 1)); // 2
-        
-    }
+        int r = 1; // 0001 in binary
+        r=r<<33; // Left shift by 33 is equivalent to left shift by 1 (33 % 32)
+        System.out.println("Left Shift by 33: " + r); // 2
+        int q1=1;
+        q1=q1>>33; // Right shift by 33 is equivalent to right shift by 1 (33 % 32)
+        System.out.println("Right Shift by 33: " + q1); // 0
+        byte h=1;
+        h=(byte)(h<<33); // Left shift by 33 is equivalent to left shift by 1 (33 % 8)
+        System.out.println("Left Shift by 33 on byte: " + h); // 2
+   }
 }
