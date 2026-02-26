@@ -14,6 +14,5 @@ class conditional
         {
             System.out.println("b is greater than a");
         }
-        
     }
 }
