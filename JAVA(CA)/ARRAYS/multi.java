@@ -21,5 +21,9 @@ class multi{
             }
             System.out.println();
         }
+ //2d array with different number of columns in each row is called jagged array
+ //jagged array is an array of arrays
+ //2d array is used to store data in tabular form
+ // 2d array is used to store data in matrix form
     }
 }
