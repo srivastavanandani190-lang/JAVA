@@ -1,7 +1,7 @@
 <!-- ===================== HERO HEADER ===================== -->
 
 <h1 align="center">
-  💛 JAVA LEARNING HUB 💚
+  🔰JAVA LEARNING HUB🔰
 </h1>
 
 <h3 align="center">
