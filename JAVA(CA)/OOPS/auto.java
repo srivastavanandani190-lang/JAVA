@@ -30,5 +30,23 @@ class auto{
         //int d=c;-->this is how jvm will convert Integer c to int d internally. old method
 
         System.out.println("Unboxing: "+d);
+        //method calls
+        int x=50;
+        printInteger(x);
+
+
+     Integer n=5;
+     Integer m=6;
+     int sum=n+m;
+     System.out.println("Sum: "+sum);
+
+
+    }
+    static void printInteger(Integer i){
+        System.out.println("Integer value: "+i);
     }
 }
+//assignment
+//method calls
+//arithmetic operations 
+
