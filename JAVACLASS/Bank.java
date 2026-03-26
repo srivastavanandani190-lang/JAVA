@@ -81,3 +81,7 @@ public class Bank{
         scanner.close();
     }
 }
+// Write a Java program to demonstrate Compile-time Polymorphism (Method Overloading) by creating a class Calculator that performs addition of integers, floating values, and three numbers using overloaded methods.
+//Write a Java program to demonstrate Single Inheritance by creating a Person class and deriving a Student class from it, and display the details of the student using inherited properties and methods.
+//Write a Java program to demonstrate Runtime Polymorphism (Method Overriding) by creating a base class Shape and derived classes Circle and Rectangle to override the area() method and display the area of each shape.
+//Write a Java program to justify that Java does not support multiple inheritance using classes, but multiple inheritance can be achieved using interfaces by implementing more than one interface in a single class.
