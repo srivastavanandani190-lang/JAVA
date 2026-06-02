@@ -1,45 +1,37 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Iterator;
+
 import java.util.*;
 
 public class arraylist {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
-        System.out.println(list);
-        Iterator<Integer> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
-         List<Integer> list1 = new LinkedList<>();
-        list1.add(10);
-        list1.add(20);
-        list1.add(30);
-        list1.add(40);
-        list1.add(50);
-        System.out.println(list1);
-        Iterator<Integer>iterator1 = list1.iterator();
-        while (iterator1.hasNext()) {
-            System.out.println(iterator1.next());
-        }
-       Collection<Integer> collection = new TreeSet<>();//hashset,linkedhashset,treeset
-        collection.add(100);
-        collection.add(200);
-        collection.add(300);
-        collection.add(400);
-        collection.add(500);
-        System.out.println(collection);
-         Iterator<Integer> iterator2 = collection.iterator();
-        while (iterator2.hasNext()) {
-            System.out.println(iterator2.next());
-        }
+   
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Hello");
+        arrayList.add("World");
+        arrayList.add("Java");
+        arrayList.add("ArrayList");
+        System.out.println("ArrayList: " + arrayList);
+
+        //ensureCapacity
+        arrayList.ensureCapacity(10);
+        System.out.println("After ensuring capacity of 10: " + arrayList);
+         
+        //trimToSize
+        arrayList.add("Additional Element");
+        arrayList.trimToSize();
+        System.out.println("After trimming to size: " + arrayList);
+        
+         
 
     }
 }
 //set store unique values and does not maintain the order of insertion(hashvalue)
 //list store duplicate values and maintain the order of insertion
+//dynamic in nature, can grow and shrink in size as needed
+//allows duplicate elements
+//maintains the order of insertion
+//not synchronized, not thread-safe
+//new capacity=old capacity+(old capacity/2)-->1.5times the old capacity when the current capacity is exceeded
+//get ,set 0(1) time complexity, add and remove 0(n) time complexity in worst case when resizing is needed, otherwise O(1) for add at the end.
+//random access is allowed, as it is based on an array structure.
+//cache friendly, as it stores elements in contiguous memory locations.
+//simple structure, easy to use and understand.
