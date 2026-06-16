@@ -1,4 +1,4 @@
-//comaprator interf ace
+//comaprator interface
 import java.util.*;
 class Student {
     String name;
