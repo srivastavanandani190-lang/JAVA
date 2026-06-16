@@ -26,13 +26,15 @@ class SortByMarks implements Comparator<Student>{
     @Override
     public int compare(Student s1,Student s2){
         return s1.marks-s2.marks;
+        //this compare method will return s1 or s2 based on positive or negative value
+        //The sorting function uses that signal to choose the order of s1 and s2.
     }
 }
 
 
 public class demo {
     public static void main(String[] args) {
-        List<Student> al=new ArrayList<>();
+        ArrayList<Student> al=new ArrayList<>();
         al.add(new Student("sumi",1,90));
         al.add(new Student("anji",2,80));
         al.add(new Student("nilli",3,70));
