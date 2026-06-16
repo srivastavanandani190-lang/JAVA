@@ -69,15 +69,12 @@ public class demo {
             for(Student s:al){
                 System.out.println(s.name+" "+s.rollno+" "+s.marks);
         }
-
+        
         //lambda expression
         Collections.sort(al,(s1,s2)->s1.marks-s2.marks);
         System.out.println("Sorting by marks using lambda expression:");
         for(Student s:al){
             System.out.println(s.name+" "+s.rollno+" "+s.marks);
         }
-        
-
-        
     }
 }
